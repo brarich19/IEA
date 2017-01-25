@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Social Media for Children</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<header class="main__header">
+  <div class="container">
+    <nav class="navbar navbar-default" role="navigation"> 
+      <!-- Brand and toggle get grouped for better mobile display --> 
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="navbar-header">
+        <h1><a href="index.html">SM4CHILDREN</a></h1>
+      </div>
+      <div class="navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="faq.html">FAQs</a></li>
+		  <li><a href="about.html">about us</a></li>
+          <li><a href="contact.html">contact us</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse --> 
+    </nav>
+  </div>
+</header>
+<section class="slider">
+  <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="item"> <img data-src="images/slider/kids.jpg" alt="First slide" src="images/slider/kids.jpg">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>You're welcome to the site, kids!</h1>
+            <p>This site is specifically made for you kids and it is aimed at helping you learn through play. Register and get learning. </p>
+            <p><a class="btn btn-default btn-lg" href="#" role="button">Register</a><a class="btn btn-default btn-lg" href="#" role="button">Read more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="item active"> <img data-src="images/slider/image_1920x580.jpg" alt="Second slide" src="images/slider/new.jpg">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>You're welcome to the site, kids!</h1>
+            <p>This site is specifically made for you kids and it is aimed at helping you learn through play. Register and get learning. </p>
+            <p><a class="btn btn-default btn-lg" href="form.php" role="button">Register</a><a class="btn btn-default btn-lg" href="#" role="button">Read more</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon carousel-control-left"></span></a> <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon carousel-control-right"></span></a> </div>
+</section>
+<!--end of slider section-->
+
+<div class="row no_padding icons__blocks text-center">
+    <div class="container">
+    <link rel="stylesheet" href="/sm4chil/style2.css">
+<header id="header">
+<h1>sign in here</h1>
+</header>
+<div id="sign-inbox">
+<form action="index_fixed.html" method="post">
+  <label>Username:</label>
+  <input class="nice" type="name" name="username" value=""><br>
+  <label>Password:</label>
+  <input class="nice" type="hash" name="password" value=""><br>
+  <input class="centered" type="submit" value="SUBMIT">
+  </form>
+</div>
+</div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h3>About</h3>
+        <p>Social media for children is a site specifically created with children in mind. it aims at helping children learn through play. It offers diverse services which can help children in their growth process. <br />
+          <br />
+          In case you have questions about our site or services, kindly connect with us throught the means provided below and we would be ever ready to assist you.</p>
+      </div>
+      <div class="col-md-3">
+        <h3>Social media</h3>
+        <p><span>Twitter</span> <a href="twitter.com/brarich19">@brarich19</a><br />
+          Contact us on Twitter and we'll be on hand to provide any help you may need. </p>
+        <p><span>Facebook</span> <a href="Facebook.com/Richard Yeboah">Richard Yeboah</a><br />
+          Contact us on Facebook and we'll be on hand to provide any help you may need.</p>
+		  <p><span>Instagram</span> <a href="Instagram.com/brarich19">brarich19</a><br />
+          Contact us on Instagram and we'll be on hand to provide any help you may need.</p>
+      </div>
+      <div class="col-md-3">
+        <h3>Newsletter</h3>
+        <p>Subscribe to our newsletter for news updates, reminders and more.</p>
+        <br />
+        <form action="#" method="post" class="form-inline" role="form">
+          <div class="form-group">
+            <label class="sr-only" for="exampleInputEmail2">your email:</label>
+            <input type="email" class="form-control form-control-lg" id="exampleInputEmail2" placeholder="Enter your e-mail:">
+          </div>
+          <button type="submit" class="btn btn-primary">subscribe</button>
+        </form>
+      </div>
+      <div class="col-md-3">
+        <h3>Address</h3>
+        <p>CHED, CCB<br />
+          P.O.Box 1974 <br />
+          Kumasi. <br />
+          <br />
+          Phone (1): +233 0245669046<br />
+          Phone(2): +233 0572047301<br />
+          <br />
+        </p>
+        <div class="social__icons"> <a href="#" class="socialicon socialicon-twitter"></a> <a href="#" class="socialicon socialicon-facebook"></a> <a href="#" class="socialicon socialicon-google"></a> <a href="#" class="socialicon socialicon-mail"></a> </div>
+      </div>
+    </div>
+    <hr>
+    <p class="text-center">&copy; Copyright Richard Yeboah. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.min.js"></script> 
+<script type="text/javascript">
+
+$('.carousel').carousel({
+  interval: 3500, // in milliseconds
+  pause: 'none' // set to 'true' to pause slider on mouse hover
+})
+
+</script>
+</body>
+</html>
