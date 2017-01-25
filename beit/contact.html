@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact me - get in touch</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+
+#logo {
+	float : left;
+	margin : 20px 30px 30px;
+	}
+	
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=reset]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: fffffff;
+    padding: 20px;
+}
+
+div {
+    border-radius: 5px;
+    background-color: fffffff;
+    padding: 20px;
+}
+
+textarea {
+ width:250px;
+ height:200px;
+ margin: 0 0 0 20px;
+}
+
+</style>
+<body>
+
+<div id="page">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="simpleindex.html" id="logoLink">BRARICH</a></h1>
+		</div>
+		
+		<div class="collapse navbar-collapse" id="myNavbar"><br>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="simpleindex.html">Home</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="#/about.html">About me</a></li>
+				<li><a href="contact.html">Contact me</a></li>
+			</ul>	
+		</div>
+
+<center><h3>Use this page/form to  contact me.</h3></center>
+
+<div>
+  <form action="action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Required">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Required">
+
+    <label for="region">Capital</label>
+    <select id="region" name="region">
+      <option value="gaccra">Accra</option>
+      <option value="northern">Tamale</option>
+      <option value="ashanti">Kumasi</option>
+	  <option value="brongahafo">Sunyani</option>
+      <option value="uppereast">Wa</option>
+      <option value="volta">Ho</option>
+	  <option value="upperwest">Bolgatanga</option>
+      <option value="central">Cape Coast</option>
+      <option value="western">Secondi</option>
+	  <option value="eastern">Koforidua</option>
+    </select>
+	
+    <label for="comments">Comments:</label>
+	<textarea type="text" id="comments" name="comments"></textarea>
+	
+    <input type="submit" value="Submit">
+	<input type="reset" value="Reset">
+	
+  </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gallery - This is about myself</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="bootstrap.min.css" rel="stylesheet">
+<style>
+
+	#logo {
+	float : left;
+	margin : 20px 30px 30px;
+	}
+	
+#example1 {
+    background-image: url(img_flwr.gif), url(paper.gif);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 35px;
+}
+
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+
+<div id="page">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="simpleindex.html" id="logoLink">BRARICH</a></h1>
+		</div>
+		
+		<div class="collapse navbar-collapse" id="myNavbar"><br>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="simpleindex.html">Home</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="#/about.html">About me</a></li>
+				<li><a href="contact.html">Contact me</a></li>
+			</ul>	
+		</div>
+
+<center><h2>Welcome to my Image Gallery</h2>
+<h4>Feel free and Scroll through the pictures.</h4></center>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank">
+      <img src="img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+    </a>
+    <div class="desc">With friends</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank">
+      <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Matriculation</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank">
+      <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Life had started</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank">
+      <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Growing up</div>
+  </div>
+</div><br><br><br><br><br><br><br><br><br><br>
+
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank">
+      <img src="img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+    </a>
+    <div class="desc">Me</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank">
+      <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Football</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank">
+      <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Grind</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank">
+      <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">New me</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>This page has been intended to tell more about me but this time around through pictures. Pictures tell a lot and i believe that through this page and from the begining of time, i can give you a sneak peak into my life. Welcome.</p>
+  <p>It has been made possible with HTML and CSS. It has been made to show four images, side by side, one row up and the other row beneath it. That is to say the images will stack vertically.</p>
+</div>
+
+</body>
+</html>
